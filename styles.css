@@ -1,0 +1,41 @@
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  background: whitesmoke;
+  height: 400px;
+  width: 90%;
+  border-radius: 12px;
+  box-shadow: -5px 10px 2px 3px wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.result {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 700;
+  max-width: 300px;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  background: blue;
+  padding: 12px;
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: rgb(3, 12, 170);
+  color: whitesmoke;
+}
